@@ -225,7 +225,7 @@ function tablaDelSeis(){
   var numeros = [];
   for (var i = 0; i <= 10; i++) {
     resultados = 6 * i;
-    numeros.push(resultados);
+    numeros[i] = resultados;
   }
   return numeros
 }
